@@ -1,0 +1,37 @@
+---
+name: "output yaml"
+description: >-
+  This is the result of a python file that creates examples of common functions in yaml format.
+initiallyActive: false
+exclusive: false
+commands:
+  - name: "name"
+    description: >-
+      Description here
+    alternates: 
+      - "alternate here"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "text here"
+    spaceLeft: true
+    spaceRight: true
+  - name: "junk"
+    description: >-
+      junk
+    alternates:
+      - "junk"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "junk"
+    spaceLeft: true
+    spaceRight: true
+  - name: "keypress example"
+    description: >-
+      Description of keypress example
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"

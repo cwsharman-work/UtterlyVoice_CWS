@@ -1,0 +1,90 @@
+---
+name: "example"
+description: >-
+  This is an example yaml file.
+alternates:
+- ex ample
+initiallyActive: true
+exclusive: false
+commands:  
+# type command
+  - name: "hefeadfs"
+    description: >-
+      this is a type command example
+    alternates: 
+      - "geasdfawe"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "this is a string."
+    spaceLeft: true
+    spaceRight: true
+# key press command
+  - name: "bagfdsdf"
+    description: >-
+      description of key press command example
+    alternates: 
+      - "asfdkelkjd"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"
+          - "f"
+# complex key press command
+  - name: "casdagwd"
+    description: >-
+      example of complex key press command. It comments a line in visual studio code.
+      Equivalent of "Ctrl+l","Ctrl+k","Ctrl+c". Comments line but does not work to uncomment it.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "l"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "k"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "c"
+# another complex command. this requires the word stop in between arguments.
+  - name: "asdfds" #for transacts
+    description: >-
+      Use this command to type a line for transect data.
+      Saying "line 1.1 stop 2.2" gives you:
+      1.1 (tab) 2.2 (enter)
+      You can try using it multiple times in a row, but it might not work correctly.
+      Saying "line 1.1 stop 2.2 stop line 3.3 stop 4.4 stop" should give you:
+      1.1 (tab) 2.2 (enter)
+      3.3 (tab) 4.4 (enter)
+    alternates: 
+      - "asfdkelkjd"
+    functions:
+      - name: "number"
+        utteranceArguments: 1 #"stop" needed to differentiate between "number" command and next action
+      - name: "type"
+        fixedArguments:
+          - "\t" # goes to next cell in Excel
+      - name: "number"
+        utteranceArguments: 1
+      - name: "type"
+        fixedArguments:
+          - "\n" # equivalent to 'Enter' in Excel
+# example of command that needs key press and key release
+  - name: "asdlkfjaivhasdlfjaklds" # hold shift, scroll up, release shift
+    description: >-
+      Scrolls the mouse left.
+      The single utterance argument is the number of scroll ticks.
+    functions:
+      - name: "keyHold"
+        fixedArguments:
+          - "shift"
+      - name: "mouseScroll"
+        fixedArguments:
+          - "up"
+        utteranceArguments: 1
+      - name: "keyRelease"
+        fixedArguments:
+          - "shift"

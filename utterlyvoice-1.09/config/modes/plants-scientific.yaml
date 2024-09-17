@@ -1,0 +1,3171 @@
+---
+name: "plants scientific"
+alternates:
+  - "plant scientific"
+description: >-
+  Used to type plants in Common name (scientific name) format. Includes 142 plants (barring errors in the csv).
+initiallyActive: false
+exclusive: false
+commands:
+  - name: "alsike clover"
+    description: >-
+      Trifolium hybridum
+    alternates: 
+      - "all psych clover"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "alsike clover ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Trifolium hybridum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "American brooklime"
+    description: >-
+      Veronica americana
+    alternates: 
+      - "american brookline"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "American brooklime ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Veronica americana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "American eelgrass"
+    description: >-
+      Vallisneria americana
+    alternates: 
+      - "american eel grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "American eelgrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Vallisneria americana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "arctic rush"
+    description: >-
+      Juncus arcticus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "arctic rush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Juncus arcticus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "baldhip rose"
+    description: >-
+      Rosa gymnocarpa
+    alternates: 
+      - "fault hip rose"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "baldhip rose ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rosa gymnocarpa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "beaked hazelnut"
+    description: >-
+      Corylus cornuta
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "beaked hazelnut ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Corylus cornuta"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "big-leaf maple"
+    description: >-
+      Acer macrophyllum
+    alternates: 
+      - "big leaf maple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "big-leaf maple ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Acer macrophyllum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "birdsfoot trefoil"
+    description: >-
+      Lotus corniculatus
+    alternates: 
+      - "bird's foot trefoil"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "birdsfoot trefoil ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Lotus corniculatus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bitter cherry"
+    description: >-
+      Prunus emarginata
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bitter cherry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Prunus emarginata"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bittersweet nightshade"
+    description: >-
+      Solanum dulcamara
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bittersweet nightshade ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Solanum dulcamara"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "black cottonwood"
+    description: >-
+      Populus trichocarpa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black cottonwood ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Populus trichocarpa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "black hawthorn"
+    description: >-
+      Crataegus douglasii
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black hawthorn ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Crataegus douglasii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "black locust"
+    description: >-
+      Robinia pseudoacacia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black locust ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Robinia pseudoacacia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "black twinberry"
+    description: >-
+      Lonicera involucrata
+    alternates: 
+      - "black twin barry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black twinberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Lonicera involucrata"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "blue elderberry"
+    description: >-
+      Sambucus caerulea
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "blue elderberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Sambucus caerulea"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bracken fern"
+    description: >-
+      Pteridium aquilinum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bracken fern ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Pteridium aquilinum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Brazilian waterweed"
+    description: >-
+      Egeria densa
+    alternates: 
+      - "brazilian water weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Brazilian waterweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Egeria densa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bull thistle"
+    description: >-
+      Cirsium vulgare
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bull thistle ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cirsium vulgare"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bulrush"
+    description: >-
+      Scirpus sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bulrush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Scirpus sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "bunchberry"
+    description: >-
+      Cornus unalaschkensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bunchberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cornus unalaschkensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "butterflybush"
+    description: >-
+      Buddleja davidii
+    alternates: 
+      - "butterfly bush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "butterflybush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Buddleja davidii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Canada thistle"
+    description: >-
+      Cirsium arvense
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Canada thistle ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cirsium arvense"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "cascara"
+    description: >-
+      Frangula purshiana
+    alternates: 
+      - "cast cara"
+      - "cask era"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cascara ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Frangula purshiana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "cat's ear"
+    description: >-
+      Hypochaeris sp.
+    alternates: 
+      - "cats ear"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cat's ear ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Hypochaeris sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "cherry laurel"
+    description: >-
+      Prunus laurocerasus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cherry laurel ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Prunus laurocerasus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "cleavers bedstraw"
+    description: >-
+      Galium aparine
+    alternates: 
+      - "bedstraw"
+      - "sticky weed"
+      - "sticky willie"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cleavers bedstraw ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Galium aparine"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common cattail"
+    description: >-
+      Typha latifolia
+    alternates: 
+      - "common cat tail"
+      - "cat tail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common cattail ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Typha latifolia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common hawthorn"
+    description: >-
+      Crataegus monogyna 
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common hawthorn ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Crataegus monogyna "
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common snowberry"
+    description: >-
+      Symphoricarpos albus
+    alternates: 
+      - "snowberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common snowberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Symphoricarpos albus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common tansy"
+    description: >-
+      Tanacetum vulgare
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common tansy ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Tanacetum vulgare"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common velvetgrass"
+    description: >-
+      Holcus lanatus
+    alternates: 
+      - "common velvet grass"
+      - "velvet grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common velvetgrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Holcus lanatus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "common vetch"
+    description: >-
+      Vicia sativa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common vetch ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Vicia sativa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Cooley's hedge nettle"
+    description: >-
+      Stachys cooleyae
+    alternates: 
+      - "cooley's hedge nettle"
+      - "purple hedge nettle"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Cooley's hedge nettle ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Stachys cooleyae"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "creeping barberry"
+    description: >-
+      Mahonia repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping barberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Mahonia repens"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "creeping bentgrass"
+    description: >-
+      Agrostis stolonifera
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping bentgrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Agrostis stolonifera"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "creeping buttercup"
+    description: >-
+      Ranunculus repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping buttercup ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Ranunculus repens"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "creeping spike-rush"
+    description: >-
+      Eleocharis parvula
+    alternates: 
+      - "creeping spike rush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping spike-rush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Eleocharis parvula"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "curly dock"
+    description: >-
+      Rumex crispus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "curly dock ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rumex crispus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "dandelion"
+    description: >-
+      Taraxacum sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dandelion ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Taraxacum sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "deer fern"
+    description: >-
+      Blechnum spicant
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "deer fern ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Blechnum spicant"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Douglas spirea"
+    description: >-
+      Spiraea douglasii
+    alternates: 
+      - "douglas by ria"
+      - "spy ria"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Douglas spirea ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Spiraea douglasii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Douglas-fir"
+    description: >-
+      Pseudotsuga menziesii
+    alternates: 
+      - "douglas fir"
+      - "douglas fur"
+      - "douglas-fir"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Douglas-fir ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Pseudotsuga menziesii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "dovefoot geranium"
+    description: >-
+      Geranium molle
+    alternates: 
+      - "the foot geranium"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dovefoot geranium ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Geranium molle"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "dull Oregon-grape"
+    description: >-
+      Mahonia nervosa
+    alternates: 
+      - "dull oregon grape"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dull Oregon-grape ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Mahonia nervosa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "English ivy"
+    description: >-
+      Hedera helix
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "English ivy ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Hedera helix"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "European bird cherry"
+    description: >-
+      Prunus padus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "European bird cherry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Prunus padus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "evergreen blackberry"
+    description: >-
+      Rubus laciniatus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "evergreen blackberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rubus laciniatus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "evergreen huckleberry"
+    description: >-
+      Vaccinium ovatum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "evergreen huckleberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Vaccinium ovatum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "field bindweed"
+    description: >-
+      Convolvulus arvensis
+    alternates: 
+      - "field bind weed"
+      - "morning glory"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "field bindweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Convolvulus arvensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "field horsetail"
+    description: >-
+      Equisetum arvense
+    alternates: 
+      - "common horsetail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "field horsetail ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Equisetum arvense"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "fireweed"
+    description: >-
+      Chamerion angustifolium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "fireweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Chamerion angustifolium"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "fringed willowherb"
+    description: >-
+      Epilobium ciliatum
+    alternates: 
+      - "watson's willow herb"
+      - "fringed willow herb"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "fringed willowherb ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Epilobium ciliatum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "giant horsetail"
+    description: >-
+      Equisetum telmateia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "giant horsetail ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Equisetum telmateia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "grand fir"
+    description: >-
+      Abies grandis
+    alternates: 
+      - "grand for"
+      - "grand fur"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "grand fir ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Abies grandis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "hardstem bulrush"
+    description: >-
+      Schoenoplectus acutus
+    alternates: 
+      - "heart stem bulrush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "hardstem bulrush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Schoenoplectus acutus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "hawksbeard"
+    description: >-
+      Crepis sp.
+    alternates: 
+      - "hawks beard"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "hawksbeard ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Crepis sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Henderson's checkerbloom"
+    description: >-
+      Sidalcea hendersonii
+    alternates: 
+      - "henderson's checker bloom"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Henderson's checkerbloom ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Sidalcea hendersonii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "herb robert"
+    description: >-
+      Geranium robertianum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "herb robert ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Geranium robertianum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Himalayan blackberry"
+    description: >-
+      Rubus armeniacus
+    alternates: 
+      - "himalayan blackberry"
+      - "himalaya"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Himalayan blackberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rubus armeniacus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "holly"
+    description: >-
+      Ilex aquifolium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "holly ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Ilex aquifolium"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Hooker willow"
+    description: >-
+      Salix hookeriana
+    alternates: 
+      - "hooker willow"
+      - "hookers willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Hooker willow ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix hookeriana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Indian plum"
+    description: >-
+      Oemleria cerasiformis
+    alternates: 
+      - "indian plum"
+      - "oh so barry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Indian plum ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Oemleria cerasiformis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "inside-out flower"
+    description: >-
+      Vancouveria hexandra
+    alternates: 
+      - "inside out flour"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "inside-out flower ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Vancouveria hexandra"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "jewelweed"
+    description: >-
+      Impatiens capensis
+    alternates: 
+      - "jewel weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "jewelweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Impatiens capensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "kinnikinnick"
+    description: >-
+      Arctostaphylos uva-ursi
+    alternates: 
+      - "kinect clinic"
+      - "clinic clinic"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "kinnikinnick ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Arctostaphylos uva-ursi"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "lady fern"
+    description: >-
+      Athyrium filix-femina
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "lady fern ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Athyrium filix-femina"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "large-leaf avens"
+    description: >-
+      Geum macrophyllum
+    alternates: 
+      - "large leaf events"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "large-leaf avens ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Geum macrophyllum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Lyngby sedge"
+    description: >-
+      Carex lyngbyei
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Lyngby sedge ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Carex lyngbyei"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Meadow Fescue"
+    description: >-
+      Schedonorus pratensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Meadow Fescue ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Schedonorus pratensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "meadow foxtail"
+    description: >-
+      Alopecurus pratensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "meadow foxtail ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Alopecurus pratensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "mock-orange"
+    description: >-
+      Philadelphus lewisii
+    alternates: 
+      - "mock orange"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mock-orange ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Philadelphus lewisii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "mountain sneezeweed"
+    description: >-
+      Helenium autumnale var. grandiflorum
+    alternates: 
+      - "mountain sneeze weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mountain sneezeweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Helenium autumnale var. grandiflorum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "mountain-ash"
+    description: >-
+      Sorbus sp.
+    alternates: 
+      - "mountain ash"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mountain-ash ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Sorbus sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "narrowleaf cattail"
+    description: >-
+      Typha angustifolia
+    alternates: 
+      - "narrow leaf cat tail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "narrowleaf cattail ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Typha angustifolia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "narrowleaf plantain"
+    description: >-
+      Plantago lanceolata
+    alternates: 
+      - "narrow leaf plantain"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "narrowleaf plantain ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Plantago lanceolata"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "nootka rose"
+    description: >-
+      Rosa nutkana
+    alternates: 
+      - "note to kouros"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "nootka rose ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rosa nutkana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "northern mannagrass"
+    description: >-
+      Glyceria borealis
+    alternates: 
+      - "northern mana grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "northern mannagrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Glyceria borealis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "ocean-spray"
+    description: >-
+      Holodiscus discolor
+    alternates: 
+      - "ocean spray"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "ocean-spray ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Holodiscus discolor"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Oregon ash"
+    description: >-
+      Fraxinus latifolia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon ash ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Fraxinus latifolia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Oregon bentgrass"
+    description: >-
+      Agrostis oregonensis
+    alternates: 
+      - "oregon brent grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon bentgrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Agrostis oregonensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Oregon white oak"
+    description: >-
+      Quercus garryana
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon white oak ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Quercus garryana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific blackberry"
+    description: >-
+      Rubus ursinus
+    alternates: 
+      - "trailing blackberry"
+      - "pacific blackberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific blackberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rubus ursinus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific dogwood"
+    description: >-
+      Cornus nuttallii
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific dogwood ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cornus nuttallii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific ninebark"
+    description: >-
+      Physocarpus capitatus
+    alternates: 
+      - "pacific nine mark"
+      - "nine bark"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific ninebark ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Physocarpus capitatus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific rhododendron"
+    description: >-
+      Rhododendron macrophyllum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific rhododendron ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rhododendron macrophyllum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific wax-myrtle"
+    description: >-
+      Myrica californica
+    alternates: 
+      - "pacific wax myrtle"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific wax-myrtle ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Myrica californica"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Pacific willow"
+    description: >-
+      Salix lasiandra
+    alternates: 
+      - "pacific willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific willow ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix lasiandra"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "paper birch"
+    description: >-
+      Betula papyrifera
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "paper birch ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Betula papyrifera"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "paperplant"
+    description: >-
+      Fatsia japonica
+    alternates: 
+      - "paper plant"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "paperplant ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Fatsia japonica"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "peafruit rose"
+    description: >-
+      Rosa pisocarpa
+    alternates: 
+      - "pie fruit rose"
+      - "clustered rose"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "peafruit rose ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rosa pisocarpa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "piggy-back plant"
+    description: >-
+      Tolmiea menziesii
+    alternates: 
+      - "piggyback plant"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "piggy-back plant ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Tolmiea menziesii"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "pink fawnlily"
+    description: >-
+      Erythronium revolutum
+    alternates: 
+      - "pink fawn lily"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "pink fawnlily ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Erythronium revolutum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "prickly currant"
+    description: >-
+      Ribes lacustre
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "prickly currant ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Ribes lacustre"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red alder"
+    description: >-
+      Alnus rubra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red alder ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Alnus rubra"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red clover"
+    description: >-
+      Trifolium pratense
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red clover ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Trifolium pratense"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red elderberry"
+    description: >-
+      Sambucus racemosa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red elderberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Sambucus racemosa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red fescue"
+    description: >-
+      Festuca rubra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red fescue ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Festuca rubra"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red-flowering currant"
+    description: >-
+      Ribes sanguineum
+    alternates: 
+      - "red flowering current"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red-flowering currant ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Ribes sanguineum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "red-osier dogwood"
+    description: >-
+      Cornus sericea
+    alternates: 
+      - "read owes your dogwood"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red-osier dogwood ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cornus sericea"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "redtop bentgrass"
+    description: >-
+      Agrostis gigantea
+    alternates: 
+      - "red top bentgrass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "redtop bentgrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Agrostis gigantea"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "redwood-sorrel"
+    description: >-
+      Oxalis oregana
+    alternates: 
+      - "redwood sorrel"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "redwood-sorrel ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Oxalis oregana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "reed canarygrass"
+    description: >-
+      Phalaris arundinacea
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "reed canarygrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Phalaris arundinacea"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "river birch"
+    description: >-
+      Betula nigra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "river birch ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Betula nigra"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "salal"
+    description: >-
+      Gaultheria shallon
+    alternates: 
+      - "so lol"
+      - "salon"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "salal ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Gaultheria shallon"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "salmonberry"
+    description: >-
+      Rubus spectabilis
+    alternates: 
+      - "salmon berry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "salmonberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rubus spectabilis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Saskatoon serviceberry"
+    description: >-
+      Amelanchier alnifolia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Saskatoon serviceberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Amelanchier alnifolia"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Scotch broom"
+    description: >-
+      Cytisus scoparius
+    alternates: 
+      - "scotch broom"
+      - "scots broom"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Scotch broom ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Cytisus scoparius"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Scouler willow"
+    description: >-
+      Salix scouleriana
+    alternates: 
+      - "schooler willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Scouler willow ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix scouleriana"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "self-heal"
+    description: >-
+      Prunella vulgaris
+    alternates: 
+      - "self heal"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "self-heal ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Prunella vulgaris"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "shore pine"
+    description: >-
+      Pinus contorta
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "shore pine ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Pinus contorta"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Sitka spruce"
+    description: >-
+      Picea sitchensis
+    alternates: 
+      - "sitka spruce"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Sitka spruce ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Picea sitchensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "Sitka willow"
+    description: >-
+      Salix sitchensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Sitka willow ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix sitchensis"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "skunk cabbage"
+    description: >-
+      Lysichiton americanus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "skunk cabbage ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Lysichiton americanus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "slender wetland sedge"
+    description: >-
+      Carex lasiocarpa
+    alternates: 
+      - "slender wetlands sedge"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "slender wetland sedge ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Carex lasiocarpa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "slough sedge"
+    description: >-
+      Carex obnupta
+    alternates: 
+      - "sluice edge"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "slough sedge ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Carex obnupta"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "smallflower blueberry"
+    description: >-
+      Vaccinium parviflorum
+    alternates: 
+      - "small flour blueberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "smallflower blueberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Vaccinium parviflorum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "small-fruited bulrush"
+    description: >-
+      Scirpus microcarpus
+    alternates: 
+      - "small fruited bulrush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "small-fruited bulrush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Scirpus microcarpus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "soft rush"
+    description: >-
+      Juncus effusus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "soft rush ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Juncus effusus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "St. John's wort"
+    description: >-
+      Hypericum sp.
+    alternates: 
+      - "st john's wort"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "St. John's wort ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Hypericum sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "stinging nettle"
+    description: >-
+      Urtica dioica
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "stinging nettle ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Urtica dioica"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "sweet cherry"
+    description: >-
+      Prunus avium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sweet cherry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Prunus avium"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "sweet chestnut"
+    description: >-
+      Castanea sativa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sweet chestnut ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Castanea sativa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "sword fern"
+    description: >-
+      Polystichum munitum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sword fern ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Polystichum munitum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "tall Fescue"
+    description: >-
+      Festuca arundinacea
+    alternates: 
+      - "tall fescue"
+      - "festuca"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tall Fescue ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Festuca arundinacea"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "tall Oregon-grape"
+    description: >-
+      Mahonia aquifolium
+    alternates: 
+      - "tall oregon grape"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tall Oregon-grape ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Mahonia aquifolium"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "tansy ragwort"
+    description: >-
+      Jacobaea vulgaris
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tansy ragwort ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Jacobaea vulgaris"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "thimbleberry"
+    description: >-
+      Rubus parviflorus
+    alternates: 
+      - "then bilberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "thimbleberry ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Rubus parviflorus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "vine maple"
+    description: >-
+      Acer circinatum
+    alternates: 
+      - "fine maple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "vine maple ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Acer circinatum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "water-parsley"
+    description: >-
+      Oenanthe sarmentosa
+    alternates: 
+      - "water parsley"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "water-parsley ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Oenanthe sarmentosa"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "wax currant"
+    description: >-
+      Ribes divaricatum
+    alternates: 
+      - "wax current"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "wax currant ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Ribes divaricatum"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "western crabapple"
+    description: >-
+      Malus fusca
+    alternates: 
+      - "pacific crabapple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western crabapple ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Malus fusca"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "western hemlock"
+    description: >-
+      Tsuga heterophylla
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western hemlock ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Tsuga heterophylla"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "western red-cedar"
+    description: >-
+      Thuja plicata
+    alternates: 
+      - "western red cedar"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western red-cedar ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Thuja plicata"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "white clover"
+    description: >-
+      Trifolium repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "white clover ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Trifolium repens"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "willow smartweed"
+    description: >-
+      Polygonum lapathifolium
+    alternates: 
+      - "we love smart weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willow smartweed ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Polygonum lapathifolium"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "yellow archangel"
+    description: >-
+      Lamiastrum galeobdolon
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow archangel ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Lamiastrum galeobdolon"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "yellow flag iris"
+    description: >-
+      Iris pseudacorus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow flag iris ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Iris pseudacorus"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "yellow salsify"
+    description: >-
+      Tragopogon dubius
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow salsify ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Tragopogon dubius"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "willow"
+    description: >-
+      Salix sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willow ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "willows"
+    description: >-
+      Salix spp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willows ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Salix spp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "annual bluegrass"
+    description: >-
+      Poa annua
+    alternates: 
+      - "poa"
+      - "poa annua"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "annual bluegrass ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Poa annua"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"
+  - name: "sedge"
+    description: >-
+      Carex sp.
+    alternates: 
+      - "such"
+      - "characters"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sedge ("
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - "Carex sp."
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+      - name: "type"
+        fixedArguments:
+          - ")"

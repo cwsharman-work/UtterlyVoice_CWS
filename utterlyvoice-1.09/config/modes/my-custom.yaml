@@ -1,0 +1,121 @@
+---
+name: "my custom"
+description: >-
+  This is my file for custom changes in general.
+initiallyActive: true
+exclusive: false
+commands:
+# Names of people          
+  - name: "person carry" #Kerrie
+    description: >-
+      Types "Kerrie"
+    pseudoCommand: true
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Kerrie"
+# Commonly misheard words.
+  - name: "arc js pro"
+    description: >-
+      Types "ArcGIS Pro"
+    pseudoCommand: true
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "ArcGIS Pro"  
+# my additions to advanced mode
+  - name: "thumb"
+    description: >-
+      Goes left one or more words.
+      The optional utterance argument is the number of times the key should be pressed.
+      If the argument is not provided,
+      the key is pressed once.
+    # alternates:
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "control"
+          - "left"
+        utteranceArguments: 1
+  - name: "pinkie"
+    description: >-
+      Goes right one or more words.
+      The optional utterance argument is the number of times the key should be pressed.
+      If the argument is not provided,
+      the key is pressed once.
+    alternates:
+     - "pinky"
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "control"
+          - "right"
+        utteranceArguments: 1                          
+# my own commands
+  - name: "save file"
+    description: >-
+      Equivalent of "Ctrl+s"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "s"
+  - name: "search file"
+    description: >-
+      Searches. Equivalent of Ctrl+F
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "f"
+  - name: "undo"
+    description: >-
+      Equivalent of "Ctrl+z"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "z"
+  - name: "print that"
+    description: >-
+      Equivalent of "Ctrl+z"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "p"
+# my fixes on default commands
+  - name: "go right top"
+    description: >-
+      Fix for "go right tab"
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "control"
+          - "tab"
+        utteranceArguments: 1
+  - name: "go left top"
+    description: >-
+      Fix for "go left tab"
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "shift"
+          - "control"
+          - "tab"
+        utteranceArguments: 1
+# I keep forgetting to release shift
+  - name: "start select"
+    description: >-
+      Holds shift
+    functions:
+      - name: "keyHold"
+        fixedArguments:
+          - "shift"
+  - name: "stop select"
+    description: >-
+      Releases shift
+    functions:
+      - name: "keyRelease"
+        fixedArguments:
+          - "shift"    

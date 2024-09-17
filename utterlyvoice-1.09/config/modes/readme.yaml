@@ -1,0 +1,20 @@
+---
+name: "readme"
+description: >-
+  This mode is a workaround to include a personal readme that lists which files I have created. I also track my unique files on github here: <a href="https://github.com/charlievweiss/UtterlyVoice_CWS">https://github.com/charlievweiss/UtterlyVoice_CWS</a>
+  <p>The open help command creates this html page automatically. The page will interpret text of html tags in the mode description as actual html tags. For example, this paragraph is separated by html tags in the description of readme.yaml</p>
+  <p><b>Here is a list of files I have created:</b></p>
+  <li>readme.html (this one)</li>
+  <li>data-entry.yaml (used for entering plant names and data in the specific format I like in Excel)</li>
+  <li>vs-code-commands.yaml</li>
+  <p><b>Here is a list of changes I made in standard files (you'll need to add these manually if you update Utterly Voice). Consider checking the version history of the standard files in my github to double check any changes:</b></p>
+  <li>basic.yaml: Added "press f to" as an alternate to "press f2"</li>
+  <p><b>Here is a quick list of commands I use often:</b></p>
+  <li>"reload settings" - updates changes to yaml files while Utterly Voice is running</li>
+  <li>"mouse click" - clicks current mouse position</li>
+  <li>"go [left/right] tab [number]" - tab navigation. I can never remember what the order of words is supposed to be, so here you go.</li>
+alternates:
+  - "read me"
+initiallyActive: false
+exclusive: false
+commands:  #no commands

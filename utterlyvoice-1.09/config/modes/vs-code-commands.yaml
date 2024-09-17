@@ -1,0 +1,85 @@
+---
+name: "vs code commands"
+description: >-
+  This is my personal file for commands in visual studio. it includes general navigation/keyboard shortcuts.
+#alternates:
+# - example
+initiallyActive: true
+exclusive: false
+commands:  
+# general navigation
+  - name: "search all files"
+    description: >-
+      Searches. Equivalent of Ctrl+Shift+F
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"
+          - "f"
+  - name: "stop search"
+    description: >-
+      Searches. Equivalent of "press escape"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "escape"
+  # This still doens't work:
+  # - name: "comment line"
+  #   description: >-
+  #     Equivalent of "Ctrl+/"
+  #   functions:
+  #     - name: "keyHold"
+  #       fixedArguments:
+  #         - "control"
+  #     - name: "type"
+  #       fixedArguments:
+  #         - "/"
+  #     - name: "keyRelease"
+  #       fixedArguments:
+  #         - "control"
+  - name: "comment line"
+    description: >-
+      Equivalent of "Ctrl+l","Ctrl+k","Ctrl+c". Comments line but does not work to uncomment it.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "l"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "k"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "c"
+  - name: "comment this"
+    description: >-
+      Comments selection. Equivalent of "Ctrl+k","Ctrl+c"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "k"
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "c"
+  - name: "open terminal"
+    description: >-
+      Equivalent of "Ctrl+`"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "`"
+  - name: "break point"
+    description: >-
+      Sets a break point by pressing the f9 key.
+    alternates:
+      - "breakpoint"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "f9"

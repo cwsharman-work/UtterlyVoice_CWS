@@ -1,0 +1,294 @@
+---
+name: "homescreen"
+description: >-
+  This file defines common screen positions on my external monitor at home.
+initiallyActive: true
+exclusive: false
+commands:
+# general commands
+  - name: "mouse go middle"
+    description: >-
+      Makes the mouse go to the middle of the screen.
+    alternates:
+      - "moscow metal"
+      - "moscow middle"
+    functions:
+      - name: mouseGo
+        fixedArguments:
+          - "950"
+          - "and"
+          - "550"
+  - name: "next application"
+    description: >-
+      Assumes you're in the task bar and moves the cursor to the right 50 pixels.
+    functions:
+      - name: "mouseMove"
+        fixedArguments:
+          - "right"
+          - "50"
+  - name: "back application"
+    description: >-
+      Assumes you're in the task bar and moves the cursor to the left 50 pixels.
+    functions:
+      - name: "mouseMove"
+        fixedArguments:
+          - "left"
+          - "50"
+  - name: "screen power off"
+    description: >-
+      Shuts down computer.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "cmd"
+      - name: "mouseGo"
+        fixedArguments:
+          - "730"
+          - "and"
+          - "960"
+      # - name: "mouseClick" # timing is off. Go manually from here.
+      #   fixedArguments:
+      #     - "left"      
+# specific programs
+  - name: "go to outlook"
+    description: >-
+      Moves cursor to Outlook.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "740"
+          - "and"
+          - "1050"
+  - name: "screen open outlook"
+    description: >-
+      Moves cursor to and clicks on Outlook.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "740"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"
+  - name: "go to teams"
+    description: >-
+      Moves cursor to Teams.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "700"
+          - "and"
+          - "1050"
+  - name: "screen open teams"
+    description: >-
+      Moves cursor to and clicks on Teams.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "700"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"
+  - name: "go to folder"
+    description: >-
+      Moves cursor to folder navigation.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "560"
+          - "and"
+          - "1050"
+  - name: "screen open folder"
+    description: >-
+      Moves cursor to and clicks on folder navigation.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "560"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"
+  - name: "go to notepad"
+    description: >-
+      Moves cursor to notepad.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "785"
+          - "and"
+          - "1050"
+  - name: "screen open notepad"
+    description: >-
+      Moves cursor to and clicks on notepad.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "785"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"
+  - name: "go to snippy"
+    description: >-
+      Moves cursor to snippy.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "650"
+          - "and"
+          - "1050"
+  - name: "screen open snippy"
+    description: >-
+      Moves cursor to and clicks on snippy.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "650"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"          
+# word
+  - name: "go to word"
+    description: >-
+      Moves cursor to word.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1100"
+          - "and"
+          - "1050"
+  - name: "screen open word"
+    description: >-
+      Moves cursor to and clicks on word.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1100"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left" 
+# excel
+  - name: "go to xl"
+    alternates:
+      - "go to excel"
+      - "go to excell"
+    description: >-
+      Moves cursor to excel.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1140"
+          - "and"
+          - "1050"
+  - name: "screen open xl"
+    alternates:
+      - "screen open excel"
+      - "screen open excell"
+    description: >-
+      Moves cursor to and clicks on excel.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1140"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left" 
+# visual studio
+  - name: "go to visual studio"
+    description: >-
+      Moves cursor to visual studio.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1190"
+          - "and"
+          - "1050"
+  - name: "screen open visual studio"
+    description: >-
+      Moves cursor to and clicks on visual studio.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1190"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"          
+# github
+  - name: "go to git hub"
+    description: >-
+      Moves cursor to GitHub.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1230"
+          - "and"
+          - "1050"
+  - name: "screen open git hub"
+    description: >-
+      Moves cursor to and clicks on GitHub.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "1230"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left" 
+# chrome
+  - name: "go to chrome"
+    description: >-
+      Moves cursor to Chrome.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "480"
+          - "and"
+          - "1050"
+  - name: "screen open chrome"
+    description: >-
+      Moves cursor to and clicks on Chrome.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "480"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left" 
+  - name: "go to pro"
+    description: >-
+      Moves cursor to ArcGis Pro.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "950"
+          - "and"
+          - "1050"
+  - name: "screen open pro"
+    description: >-
+      Moves cursor to and clicks on ArcGis Pro.
+    functions:
+      - name: "mouseGo"
+        fixedArguments:
+          - "950"
+          - "and"
+          - "1050"
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"           

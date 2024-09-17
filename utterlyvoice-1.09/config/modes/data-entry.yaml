@@ -1,0 +1,75 @@
+---
+name: "data entry"
+description: >-
+  Used for non-plant commands for data entry. Plant commands are now in data-entry-plants.yaml.
+initiallyActive: false
+exclusive: false
+commands:
+# excel commands
+  - name: "sum"
+    alternates:
+     - "some"
+    description: >-
+      Correctly types =SUM()
+    functions:
+      - name: "type"
+        fixedArguments:
+         - "=SUM()"
+# formatting
+  - name: "setup transect titles"
+    alternates:
+      - "set up transect titles"
+    description: >-
+      Sets up titles for transects: Common name (tab) Scientific name (tab) Start (tab) End (tab)
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Common name\tScientific name\tStart\tEnd"
+# numbers
+  - name: "line" #for transacts
+    description: >-
+      Use this command to type a line for transect data.
+      Saying "line 1.1 stop 2.2" gives you:
+      1.1 (tab) 2.2 (enter)
+      You can try using it multiple times in a row, but it might not work correctly.
+      Saying "line 1.1 stop 2.2 stop line 3.3 stop 4.4 stop" should give you:
+      1.1 (tab) 2.2 (enter)
+      3.3 (tab) 4.4 (enter)
+    alternates: 
+      - "mine" #frequently mis-recognized
+    functions:
+      - name: "number"
+        utteranceArguments: 1
+      - name: "type"
+        fixedArguments:
+          - "\t" # goes to next cell in Excel
+      - name: "number"
+        utteranceArguments: 1
+      - name: "type"
+        fixedArguments:
+          - "\n" # equivalent to 'Enter' in Excel
+
+
+#  - name: "telephone number"
+#    description: >-
+#      Use this command to type a telephone number in the N-N-N format.
+#      The first utterance argument is the first number.
+#      The second utterance argument is "stop".
+#      The third utterance argument is the second number.
+#      The fourth utterance argument is "stop".
+#      The fifth utterance argument is the third number.
+#    functions:
+#      - name: "number"
+#        utteranceArguments: 1
+#      - name: "type"
+#        fixedArguments:
+#          - "-"
+#      - name: "number"
+#        utteranceArguments: 1
+#      - name: "type"
+#        fixedArguments:
+#          - "-"
+#      - name: "number"
+#        utteranceArguments: 1
+#    spaceLeft: true
+#    spaceRight: true

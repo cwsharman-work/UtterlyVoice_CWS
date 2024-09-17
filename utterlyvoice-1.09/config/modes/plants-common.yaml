@@ -1,0 +1,1181 @@
+---
+name: "plants common"
+description: >-
+  Used to type common names of plants. Includes 142 plants (barring errors in the csv).
+initiallyActive: false
+exclusive: false
+commands:
+  - name: "alsike clover"
+    description: >-
+      Trifolium hybridum
+    alternates: 
+      - "all psych clover"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "alsike clover"
+  - name: "American brooklime"
+    description: >-
+      Veronica americana
+    alternates: 
+      - "american brookline"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "American brooklime"
+  - name: "American eelgrass"
+    description: >-
+      Vallisneria americana
+    alternates: 
+      - "american eel grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "American eelgrass"
+  - name: "arctic rush"
+    description: >-
+      Juncus arcticus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "arctic rush"
+  - name: "baldhip rose"
+    description: >-
+      Rosa gymnocarpa
+    alternates: 
+      - "fault hip rose"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "baldhip rose"
+  - name: "beaked hazelnut"
+    description: >-
+      Corylus cornuta
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "beaked hazelnut"
+  - name: "big-leaf maple"
+    description: >-
+      Acer macrophyllum
+    alternates: 
+      - "big leaf maple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "big-leaf maple"
+  - name: "birdsfoot trefoil"
+    description: >-
+      Lotus corniculatus
+    alternates: 
+      - "bird's foot trefoil"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "birdsfoot trefoil"
+  - name: "bitter cherry"
+    description: >-
+      Prunus emarginata
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bitter cherry"
+  - name: "bittersweet nightshade"
+    description: >-
+      Solanum dulcamara
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bittersweet nightshade"
+  - name: "black cottonwood"
+    description: >-
+      Populus trichocarpa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black cottonwood"
+  - name: "black hawthorn"
+    description: >-
+      Crataegus douglasii
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black hawthorn"
+  - name: "black locust"
+    description: >-
+      Robinia pseudoacacia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black locust"
+  - name: "black twinberry"
+    description: >-
+      Lonicera involucrata
+    alternates: 
+      - "black twin barry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "black twinberry"
+  - name: "blue elderberry"
+    description: >-
+      Sambucus caerulea
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "blue elderberry"
+  - name: "bracken fern"
+    description: >-
+      Pteridium aquilinum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bracken fern"
+  - name: "Brazilian waterweed"
+    description: >-
+      Egeria densa
+    alternates: 
+      - "brazilian water weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Brazilian waterweed"
+  - name: "bull thistle"
+    description: >-
+      Cirsium vulgare
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bull thistle"
+  - name: "bulrush"
+    description: >-
+      Scirpus sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bulrush"
+  - name: "bunchberry"
+    description: >-
+      Cornus unalaschkensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "bunchberry"
+  - name: "butterflybush"
+    description: >-
+      Buddleja davidii
+    alternates: 
+      - "butterfly bush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "butterflybush"
+  - name: "Canada thistle"
+    description: >-
+      Cirsium arvense
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Canada thistle"
+  - name: "cascara"
+    description: >-
+      Frangula purshiana
+    alternates: 
+      - "cast cara"
+      - "cask era"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cascara"
+  - name: "cat's ear"
+    description: >-
+      Hypochaeris sp.
+    alternates: 
+      - "cats ear"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cat's ear"
+  - name: "cherry laurel"
+    description: >-
+      Prunus laurocerasus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cherry laurel"
+  - name: "cleavers bedstraw"
+    description: >-
+      Galium aparine
+    alternates: 
+      - "bedstraw"
+      - "sticky weed"
+      - "sticky willie"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "cleavers bedstraw"
+  - name: "common cattail"
+    description: >-
+      Typha latifolia
+    alternates: 
+      - "common cat tail"
+      - "cat tail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common cattail"
+  - name: "common hawthorn"
+    description: >-
+      Crataegus monogyna 
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common hawthorn"
+  - name: "common snowberry"
+    description: >-
+      Symphoricarpos albus
+    alternates: 
+      - "snowberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common snowberry"
+  - name: "common tansy"
+    description: >-
+      Tanacetum vulgare
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common tansy"
+  - name: "common velvetgrass"
+    description: >-
+      Holcus lanatus
+    alternates: 
+      - "common velvet grass"
+      - "velvet grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common velvetgrass"
+  - name: "common vetch"
+    description: >-
+      Vicia sativa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "common vetch"
+  - name: "Cooley's hedge nettle"
+    description: >-
+      Stachys cooleyae
+    alternates: 
+      - "cooley's hedge nettle"
+      - "purple hedge nettle"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Cooley's hedge nettle"
+  - name: "creeping barberry"
+    description: >-
+      Mahonia repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping barberry"
+  - name: "creeping bentgrass"
+    description: >-
+      Agrostis stolonifera
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping bentgrass"
+  - name: "creeping buttercup"
+    description: >-
+      Ranunculus repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping buttercup"
+  - name: "creeping spike-rush"
+    description: >-
+      Eleocharis parvula
+    alternates: 
+      - "creeping spike rush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "creeping spike-rush"
+  - name: "curly dock"
+    description: >-
+      Rumex crispus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "curly dock"
+  - name: "dandelion"
+    description: >-
+      Taraxacum sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dandelion"
+  - name: "deer fern"
+    description: >-
+      Blechnum spicant
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "deer fern"
+  - name: "Douglas spirea"
+    description: >-
+      Spiraea douglasii
+    alternates: 
+      - "douglas by ria"
+      - "spy ria"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Douglas spirea"
+  - name: "Douglas-fir"
+    description: >-
+      Pseudotsuga menziesii
+    alternates: 
+      - "douglas fir"
+      - "douglas fur"
+      - "douglas-fir"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Douglas-fir"
+  - name: "dovefoot geranium"
+    description: >-
+      Geranium molle
+    alternates: 
+      - "the foot geranium"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dovefoot geranium"
+  - name: "dull Oregon-grape"
+    description: >-
+      Mahonia nervosa
+    alternates: 
+      - "dull oregon grape"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "dull Oregon-grape"
+  - name: "English ivy"
+    description: >-
+      Hedera helix
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "English ivy"
+  - name: "European bird cherry"
+    description: >-
+      Prunus padus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "European bird cherry"
+  - name: "evergreen blackberry"
+    description: >-
+      Rubus laciniatus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "evergreen blackberry"
+  - name: "evergreen huckleberry"
+    description: >-
+      Vaccinium ovatum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "evergreen huckleberry"
+  - name: "field bindweed"
+    description: >-
+      Convolvulus arvensis
+    alternates: 
+      - "field bind weed"
+      - "morning glory"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "field bindweed"
+  - name: "field horsetail"
+    description: >-
+      Equisetum arvense
+    alternates: 
+      - "common horsetail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "field horsetail"
+  - name: "fireweed"
+    description: >-
+      Chamerion angustifolium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "fireweed"
+  - name: "fringed willowherb"
+    description: >-
+      Epilobium ciliatum
+    alternates: 
+      - "watson's willow herb"
+      - "fringed willow herb"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "fringed willowherb"
+  - name: "giant horsetail"
+    description: >-
+      Equisetum telmateia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "giant horsetail"
+  - name: "grand fir"
+    description: >-
+      Abies grandis
+    alternates: 
+      - "grand for"
+      - "grand fur"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "grand fir"
+  - name: "hardstem bulrush"
+    description: >-
+      Schoenoplectus acutus
+    alternates: 
+      - "heart stem bulrush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "hardstem bulrush"
+  - name: "hawksbeard"
+    description: >-
+      Crepis sp.
+    alternates: 
+      - "hawks beard"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "hawksbeard"
+  - name: "Henderson's checkerbloom"
+    description: >-
+      Sidalcea hendersonii
+    alternates: 
+      - "henderson's checker bloom"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Henderson's checkerbloom"
+  - name: "herb robert"
+    description: >-
+      Geranium robertianum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "herb robert"
+  - name: "Himalayan blackberry"
+    description: >-
+      Rubus armeniacus
+    alternates: 
+      - "himalayan blackberry"
+      - "himalaya"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Himalayan blackberry"
+  - name: "holly"
+    description: >-
+      Ilex aquifolium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "holly"
+  - name: "Hooker willow"
+    description: >-
+      Salix hookeriana
+    alternates: 
+      - "hooker willow"
+      - "hookers willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Hooker willow"
+  - name: "Indian plum"
+    description: >-
+      Oemleria cerasiformis
+    alternates: 
+      - "indian plum"
+      - "oh so barry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Indian plum"
+  - name: "inside-out flower"
+    description: >-
+      Vancouveria hexandra
+    alternates: 
+      - "inside out flour"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "inside-out flower"
+  - name: "jewelweed"
+    description: >-
+      Impatiens capensis
+    alternates: 
+      - "jewel weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "jewelweed"
+  - name: "kinnikinnick"
+    description: >-
+      Arctostaphylos uva-ursi
+    alternates: 
+      - "kinect clinic"
+      - "clinic clinic"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "kinnikinnick"
+  - name: "lady fern"
+    description: >-
+      Athyrium filix-femina
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "lady fern"
+  - name: "large-leaf avens"
+    description: >-
+      Geum macrophyllum
+    alternates: 
+      - "large leaf events"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "large-leaf avens"
+  - name: "Lyngby sedge"
+    description: >-
+      Carex lyngbyei
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Lyngby sedge"
+  - name: "Meadow Fescue"
+    description: >-
+      Schedonorus pratensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Meadow Fescue"
+  - name: "meadow foxtail"
+    description: >-
+      Alopecurus pratensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "meadow foxtail"
+  - name: "mock-orange"
+    description: >-
+      Philadelphus lewisii
+    alternates: 
+      - "mock orange"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mock-orange"
+  - name: "mountain sneezeweed"
+    description: >-
+      Helenium autumnale var. grandiflorum
+    alternates: 
+      - "mountain sneeze weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mountain sneezeweed"
+  - name: "mountain-ash"
+    description: >-
+      Sorbus sp.
+    alternates: 
+      - "mountain ash"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "mountain-ash"
+  - name: "narrowleaf cattail"
+    description: >-
+      Typha angustifolia
+    alternates: 
+      - "narrow leaf cat tail"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "narrowleaf cattail"
+  - name: "narrowleaf plantain"
+    description: >-
+      Plantago lanceolata
+    alternates: 
+      - "narrow leaf plantain"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "narrowleaf plantain"
+  - name: "nootka rose"
+    description: >-
+      Rosa nutkana
+    alternates: 
+      - "note to kouros"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "nootka rose"
+  - name: "northern mannagrass"
+    description: >-
+      Glyceria borealis
+    alternates: 
+      - "northern mana grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "northern mannagrass"
+  - name: "ocean-spray"
+    description: >-
+      Holodiscus discolor
+    alternates: 
+      - "ocean spray"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "ocean-spray"
+  - name: "Oregon ash"
+    description: >-
+      Fraxinus latifolia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon ash"
+  - name: "Oregon bentgrass"
+    description: >-
+      Agrostis oregonensis
+    alternates: 
+      - "oregon brent grass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon bentgrass"
+  - name: "Oregon white oak"
+    description: >-
+      Quercus garryana
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Oregon white oak"
+  - name: "Pacific blackberry"
+    description: >-
+      Rubus ursinus
+    alternates: 
+      - "trailing blackberry"
+      - "pacific blackberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific blackberry"
+  - name: "Pacific dogwood"
+    description: >-
+      Cornus nuttallii
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific dogwood"
+  - name: "Pacific ninebark"
+    description: >-
+      Physocarpus capitatus
+    alternates: 
+      - "pacific nine mark"
+      - "nine bark"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific ninebark"
+  - name: "Pacific rhododendron"
+    description: >-
+      Rhododendron macrophyllum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific rhododendron"
+  - name: "Pacific wax-myrtle"
+    description: >-
+      Myrica californica
+    alternates: 
+      - "pacific wax myrtle"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific wax-myrtle"
+  - name: "Pacific willow"
+    description: >-
+      Salix lasiandra
+    alternates: 
+      - "pacific willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Pacific willow"
+  - name: "paper birch"
+    description: >-
+      Betula papyrifera
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "paper birch"
+  - name: "paperplant"
+    description: >-
+      Fatsia japonica
+    alternates: 
+      - "paper plant"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "paperplant"
+  - name: "peafruit rose"
+    description: >-
+      Rosa pisocarpa
+    alternates: 
+      - "pie fruit rose"
+      - "clustered rose"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "peafruit rose"
+  - name: "piggy-back plant"
+    description: >-
+      Tolmiea menziesii
+    alternates: 
+      - "piggyback plant"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "piggy-back plant"
+  - name: "pink fawnlily"
+    description: >-
+      Erythronium revolutum
+    alternates: 
+      - "pink fawn lily"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "pink fawnlily"
+  - name: "prickly currant"
+    description: >-
+      Ribes lacustre
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "prickly currant"
+  - name: "red alder"
+    description: >-
+      Alnus rubra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red alder"
+  - name: "red clover"
+    description: >-
+      Trifolium pratense
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red clover"
+  - name: "red elderberry"
+    description: >-
+      Sambucus racemosa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red elderberry"
+  - name: "red fescue"
+    description: >-
+      Festuca rubra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red fescue"
+  - name: "red-flowering currant"
+    description: >-
+      Ribes sanguineum
+    alternates: 
+      - "red flowering current"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red-flowering currant"
+  - name: "red-osier dogwood"
+    description: >-
+      Cornus sericea
+    alternates: 
+      - "read owes your dogwood"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "red-osier dogwood"
+  - name: "redtop bentgrass"
+    description: >-
+      Agrostis gigantea
+    alternates: 
+      - "red top bentgrass"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "redtop bentgrass"
+  - name: "redwood-sorrel"
+    description: >-
+      Oxalis oregana
+    alternates: 
+      - "redwood sorrel"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "redwood-sorrel"
+  - name: "reed canarygrass"
+    description: >-
+      Phalaris arundinacea
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "reed canarygrass"
+  - name: "river birch"
+    description: >-
+      Betula nigra
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "river birch"
+  - name: "salal"
+    description: >-
+      Gaultheria shallon
+    alternates: 
+      - "so lol"
+      - "salon"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "salal"
+  - name: "salmonberry"
+    description: >-
+      Rubus spectabilis
+    alternates: 
+      - "salmon berry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "salmonberry"
+  - name: "Saskatoon serviceberry"
+    description: >-
+      Amelanchier alnifolia
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Saskatoon serviceberry"
+  - name: "Scotch broom"
+    description: >-
+      Cytisus scoparius
+    alternates: 
+      - "scotch broom"
+      - "scots broom"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Scotch broom"
+  - name: "Scouler willow"
+    description: >-
+      Salix scouleriana
+    alternates: 
+      - "schooler willow"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Scouler willow"
+  - name: "self-heal"
+    description: >-
+      Prunella vulgaris
+    alternates: 
+      - "self heal"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "self-heal"
+  - name: "shore pine"
+    description: >-
+      Pinus contorta
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "shore pine"
+  - name: "Sitka spruce"
+    description: >-
+      Picea sitchensis
+    alternates: 
+      - "sitka spruce"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Sitka spruce"
+  - name: "Sitka willow"
+    description: >-
+      Salix sitchensis
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "Sitka willow"
+  - name: "skunk cabbage"
+    description: >-
+      Lysichiton americanus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "skunk cabbage"
+  - name: "slender wetland sedge"
+    description: >-
+      Carex lasiocarpa
+    alternates: 
+      - "slender wetlands sedge"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "slender wetland sedge"
+  - name: "slough sedge"
+    description: >-
+      Carex obnupta
+    alternates: 
+      - "sluice edge"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "slough sedge"
+  - name: "smallflower blueberry"
+    description: >-
+      Vaccinium parviflorum
+    alternates: 
+      - "small flour blueberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "smallflower blueberry"
+  - name: "small-fruited bulrush"
+    description: >-
+      Scirpus microcarpus
+    alternates: 
+      - "small fruited bulrush"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "small-fruited bulrush"
+  - name: "soft rush"
+    description: >-
+      Juncus effusus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "soft rush"
+  - name: "St. John's wort"
+    description: >-
+      Hypericum sp.
+    alternates: 
+      - "st john's wort"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "St. John's wort"
+  - name: "stinging nettle"
+    description: >-
+      Urtica dioica
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "stinging nettle"
+  - name: "sweet cherry"
+    description: >-
+      Prunus avium
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sweet cherry"
+  - name: "sweet chestnut"
+    description: >-
+      Castanea sativa
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sweet chestnut"
+  - name: "sword fern"
+    description: >-
+      Polystichum munitum
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sword fern"
+  - name: "tall Fescue"
+    description: >-
+      Festuca arundinacea
+    alternates: 
+      - "tall fescue"
+      - "festuca"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tall Fescue"
+  - name: "tall Oregon-grape"
+    description: >-
+      Mahonia aquifolium
+    alternates: 
+      - "tall oregon grape"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tall Oregon-grape"
+  - name: "tansy ragwort"
+    description: >-
+      Jacobaea vulgaris
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "tansy ragwort"
+  - name: "thimbleberry"
+    description: >-
+      Rubus parviflorus
+    alternates: 
+      - "then bilberry"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "thimbleberry"
+  - name: "vine maple"
+    description: >-
+      Acer circinatum
+    alternates: 
+      - "fine maple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "vine maple"
+  - name: "water-parsley"
+    description: >-
+      Oenanthe sarmentosa
+    alternates: 
+      - "water parsley"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "water-parsley"
+  - name: "wax currant"
+    description: >-
+      Ribes divaricatum
+    alternates: 
+      - "wax current"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "wax currant"
+  - name: "western crabapple"
+    description: >-
+      Malus fusca
+    alternates: 
+      - "pacific crabapple"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western crabapple"
+  - name: "western hemlock"
+    description: >-
+      Tsuga heterophylla
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western hemlock"
+  - name: "western red-cedar"
+    description: >-
+      Thuja plicata
+    alternates: 
+      - "western red cedar"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "western red-cedar"
+  - name: "white clover"
+    description: >-
+      Trifolium repens
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "white clover"
+  - name: "willow smartweed"
+    description: >-
+      Polygonum lapathifolium
+    alternates: 
+      - "we love smart weed"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willow smartweed"
+  - name: "yellow archangel"
+    description: >-
+      Lamiastrum galeobdolon
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow archangel"
+  - name: "yellow flag iris"
+    description: >-
+      Iris pseudacorus
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow flag iris"
+  - name: "yellow salsify"
+    description: >-
+      Tragopogon dubius
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "yellow salsify"
+  - name: "willow"
+    description: >-
+      Salix sp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willow"
+  - name: "willows"
+    description: >-
+      Salix spp.
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "willows"
+  - name: "annual bluegrass"
+    description: >-
+      Poa annua
+    alternates: 
+      - "poa"
+      - "poa annua"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "annual bluegrass"
+  - name: "sedge"
+    description: >-
+      Carex sp.
+    alternates: 
+      - "such"
+      - "characters"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "sedge"

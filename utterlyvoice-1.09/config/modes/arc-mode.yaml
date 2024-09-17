@@ -1,0 +1,645 @@
+---
+name: "arc mode"
+description: >-
+  This is a custom file that helps navigate with keyboard shortcuts in ArcGIS Pro. It was made on 9/6/2024.
+initiallyActive: false
+exclusive: false
+commands:  
+## troubleshooting workarounds with keypresses
+  - name: "release holds"
+    description: >-
+      Not sure how to properly do key presses, so here's a way out. Adding keys as they become relevant.
+    alternates:
+      - "select pain"
+    functions:
+      - name: "keyRelease"
+        fixedArguments:
+          - "alt"
+      - name: "keyRelease"
+        fixedArguments:
+          - "f7"
+## testing modified common regular commands
+  - name: "pop" #use this for mouse click
+    description: >-
+      Test. Using pop instead of mouse click to speed up creating features in pro.
+    functions:
+      - name: "mouseClick"
+        fixedArguments:
+          - "left"  
+  - name: "hold"
+    description: >-
+      Holds the mouse left button down.
+    functions:
+      - name: "mouseHold"
+  - name: "release"
+    description: >-
+      Releases the mouse left button from being held down.
+    functions:
+      - name: "mouseRelease"         
+  - name: "finish" 
+    description: >-
+      Finishes changes when using edit tools. Equivalent of f2.
+    functions:
+      - name: "keyPress"      
+        fixedArguments:
+          - "f2"
+## Common actions
+# pan and zoom in map
+  # - name: "zoom in"
+  #   description: >-
+  #     Zooms in a specified number of times. The utterance argument is the number of times it will zoom in.
+  #   functions:
+  #     - name: "keyRepeat"
+  #       fixedArguments:
+  #         - "=" # not included as a default key for function, waiting for response
+  #       utteranceArguments: 1
+# rename
+  - name: "rename"
+    description: >-
+      Renames whatever you have selected. Equivalent of "press f2"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "f2"
+# next/previous extent - Uses ribbonnavigation commands.
+  - name: "next extent"
+    description: >-
+      Goes to next extent using ribbon commands. Equivalent to alt, m, n, e
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"
+  - name: "previous extent"
+    description: >-
+      Goes to previous extent using ribbon commands. Equivalent to alt, m, p, e
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "p"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"
+# Export
+  - name: "export"
+    description: >-
+      Opens export pane.
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "e"
+# command search
+  - name: "command search"
+    description: >-
+      Goes to command search bar. Equivalent to alt+q
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "q"
+# open dropdown menu
+  - name: "dropdown"
+    description: >-
+      Opens a drop down menu.
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "down"  
+## Editing
+  - name: "open modify pain"
+    description: >-
+      Opens the modify features pane. Equivalent of ctrL+shift+M
+    alternates: 
+      - "open modify pane"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"             
+          - "m"    
+  - name: "open symbology pane"
+    description: >-
+      Opens the symbology pane. Equivalent of ctrL+shift+w (I assigned this shortcut because it didn't exist)
+    alternates: 
+      - "open symbology pain"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"             
+          - "w"                     
+  - name: "open create pain"
+    description: >-
+      Opens the create features pane. Equivalent of ctrL+shift+C
+    alternates: 
+      - "open create pane"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"             
+          - "c"           
+  - name: "open attributes pane"
+    description: >-
+      Opens the attributes pane. Equivalent of ctrL+shift+T
+    alternates: 
+      - "open attributes pain"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"             
+          - "t"
+  - name: "select features"
+    description: >-
+      Clicks select buy rectangle in ribbon. Equivalent to alt, M, S, E, R
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"
+      - name: "keyPress"
+        fixedArguments:
+         - "r"    
+  - name: "select features keep"
+    description: >-
+      Clicks select in ribbon, and keeps option to choose how you want to select. Equivalent to alt, M, S, E
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"           
+  - name: "select lasso"
+    description: >-
+      Clicks select in ribbon, and chooses lasso. Equivalent to alt, M, S, E, s
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"  
+      - name: "keyPress"
+        fixedArguments:
+          - "s"           
+  - name: "clear"
+    description: >-
+      Clicks clear in ribbon. Equivalent to alt, M, c, x
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "c"
+      - name: "keyPress"
+        fixedArguments:
+          - "x"
+## Catalog pane
+  - name: "open catalog pane"
+    description: >-
+      Opens catalogue pane. Equivalent to alt, v, c, p
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "v"
+      - name: "keyPress"
+        fixedArguments:
+          - "c"
+      - name: "keyPress"
+        fixedArguments:
+          - "p"
+# add folder connection
+  - name: "add folder connection"
+    description: >-
+      As a folder connection when the catalog pane is selected. Equivalent of ctrL+shift+C
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"             
+          - "c"
+# make new layout
+  - name: "make plane layout"
+    description: >-
+      Makes a plain new layout when the catalog pane is selected. Equivalent of ctrl+shift+l
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"
+          - "l"  
+## Layouts
+  - name: "make custom layout"
+    description: >-
+      Brings you to the folder navigation for your custom layout file. Equivalent of alt, N, NL, I
+    alternates: 
+      - "make a custom layout"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+      - name: "keyPress"
+        fixedArguments:
+          - "l"
+      - name: "keyPress"
+        fixedArguments:
+          - "i"
+## Contents pane
+  - name: "open contents pane"
+    description: >-
+      Opens contents pane. Equivalent to alt, v, c, t
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "v"
+      - name: "keyPress"
+        fixedArguments:
+          - "c"
+      - name: "keyPress"
+        fixedArguments:
+          - "t"
+  - name: "drawing order"
+    description: >-
+      Makes drawing order active when contents pane is selected. Equivalent to tab five times.
+    # alternates: 
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "tab"
+          - "four"
+  - name: "context menu"
+    description: >-
+      Opens the context menu when a layer in the content pain is selected. Equivalent of shift+windows+f10
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "shift"
+          - "cmd"
+          - "f10" 
+  - name: "zoom to layer"
+    description: >-
+      Goes down to zoom to layer. Equivalent to go down ten times. May not work if something is already highlighted in the menu.
+    # alternates: 
+    functions:
+      - name: "keyRepeat"
+        fixedArguments:
+          - "down"
+          - "10"          
+  - name: "attribute table"
+    description: >-
+      Goes down to attribute table. Equivalent to control + T
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "T"    
+  - name: "checkbox"
+    description: >-
+      Toggles the layer on or off. Equivalent of spacebar.
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "space"
+  - name: "checkbox all"
+    description: >-
+      Toggles all the layers on or off. Equivalent of ctrl+spacebar
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+         - "control"
+         - "space"
+## General pane navigation
+  - name: "browse panes"
+    description: >-
+      description of key press command example
+    alternates: 
+      - "browse pains"
+    functions:
+      - name: "keyHold"
+        fixedArguments:
+          - "alt"
+      - name: "keyHold"
+        fixedArguments:
+          - "f7"
+  - name: "next view"
+    description: >-
+      description of key press command example
+    alternates: 
+      - "next few"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "f6"
+## Catalog actions
+  - name: "create new layout"
+    description: >-
+      Command to make a new layout. Equivalent of Ctrl+Shift+L
+    # alternates: 
+    #   - "next few"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "shift"
+          - "l"
+## Navigate ribbon
+  - name: "navigate ribbon"
+    description: >-
+      Begins ribbon navigation. Equivalent to pressing alt key. Use basic letter utterance commands to control it from here.
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "stop navigation"
+    description: >-
+      Stops navigating the ribbon. Equivalent to pressing alt key.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "nav"
+    description: >-
+      Alternate to saying "upper" to say letters. Say "nav" [phrase], just like "upper" and "lower" with letters. Can also say hit.
+    alternates:
+      - "hit"
+    functions:
+      - name: "upper"
+        utteranceArguments: 100
+  - name: "back one"
+    description: >-
+      Goes back one in the navigation pane. Equivalent to pressing escape.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "escape"
+  # Specific ribbon commands. Format is "ribbon [project/map/insert/analysis/view/edit/imagery/share] [""/keep]"
+  - name: "ribbon project"
+    description: >-
+      Opens project tab in the ribbon if navigation isn't active. Equivalent to alt, p, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "p"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon project keep"
+    description: >-
+      Opens project tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, p
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "p"
+  - name: "ribbon map"
+    description: >-
+      Opens map tab in the ribbon if navigation isn't active. Equivalent to alt, m, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon map keep"
+    description: >-
+      Opens map tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, m
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "m"
+  - name: "ribbon insert"
+    description: >-
+      Opens insert tab in the ribbon if navigation isn't active. Equivalent to alt, n, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon insert keep"
+    description: >-
+      Opens insert tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, n
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+  - name: "ribbon analysis"
+    description: >-
+      Opens analysis tab in the ribbon if navigation isn't active. Equivalent to alt, a, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "a"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon analysis keep"
+    description: >-
+      Opens analysis tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, a
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "a"
+  - name: "ribbon view"
+    description: >-
+      Opens view tab in the ribbon if navigation isn't active. Equivalent to alt, v, alt
+    alternates:
+      - "ribbon a few"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "v"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon view keep"
+    description: >-
+      Opens view tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, v
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "v"
+  - name: "ribbon edit"
+    description: >-
+      Opens edit tab in the ribbon if navigation isn't active. Equivalent to alt, e, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon edit keep"
+    description: >-
+      Opens edit tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, e
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "e"
+  - name: "ribbon imagery"
+    description: >-
+      Opens imagery tab in the ribbon if navigation isn't active. Equivalent to alt, i, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "i"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon imagery keep"
+    description: >-
+      Opens imagery tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, i
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "i"
+  - name: "ribbon share"
+    description: >-
+      Opens share tab in the ribbon if navigation isn't active. Equivalent to alt, s, alt
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+  - name: "ribbon share keep"
+    description: >-
+      Opens share tab in the ribbon if navigation isn't active. Keeps navigation active. Equivalent to alt, s
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+

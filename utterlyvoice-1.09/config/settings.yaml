@@ -1,0 +1,105 @@
+---
+
+# For information on these settings, see
+# https://utterlyvoice.com/help/customize.
+
+# The license key for this application.
+licenseKey: "CRmDg2yLtmyApGBcSE7VS_l_18FFbCTo8s3XKlGr1eILMUiMQI_7QY__zejyimizSwd6mD5cX3hlza5JAcDL9kuw5_V9kfyIz1CsXxhXnCbOzPU="
+
+# Microphone utterance threshold.
+microphoneThreshold: 100
+
+# Minimum duration of silence that defines the gap between utterances.
+utteranceGapMilliseconds: 700
+
+# The pixel height of the main user interface.
+# The value must be even and within range: [48,100].
+# If your display scaling settings are not 100% (96 DPI),
+# this value will be adjusted automatically for scaling.
+# We recommend either 48 (2 lines of text in user interface) or 66 (3 lines of text).
+userInterfaceHeight: 48
+
+# The pixel height of labels used for "show" and other related commands.
+# The value must be within range: [10, 20].
+# If your display scaling settings are not 100% (96 DPI),
+# this value will be adjusted automatically for scaling.
+labelFontHeight: 14
+
+# Select your desired recognizer.
+recognizer: "vosk"
+#recognizer: "whispercpp"
+#recognizer: "google_v1"
+#recognizer: "deepgram"
+
+# If you selected google_v1 for the recognizer,
+# provide configuration values.
+googleV1RecognizerConfig:
+  # The recognizer model.
+  # https://cloud.google.com/speech-to-text/docs/transcription-model
+  model: "latest_short"
+
+# If you selected vosk for the recognizer,
+# provide configuration values.
+voskRecognizerConfig:
+  # The path to the model directory relative to the application directory.
+  model: "recognizer/vosk/vosk-model-en-us-0.22"
+
+# If you selected WhisperCpp for the recognizer,
+# provide configuration values.
+whisperCppRecognizerConfig:
+  # The path to the model file relative to the application directory.
+  model: "recognizer/whispercpp/ggml-base.en.bin"
+
+# If you selected deepgram for the recognizer,
+# provide configuration values.
+deepgramRecognizerConfig:
+  # The API key. Keep this value private and secure.
+  secretKey: ""
+  # The recognizer model.
+  # https://developers.deepgram.com/docs/model
+  # - "enhanced-general"
+  # - "nova-2"
+  # - "nova-2-medical"
+  # - "nova-2-conversationalai" (theoretically good for command recognition)
+  # - etc.
+  model: "nova-2"
+  # The number of transcript alternatives supplied by the service.
+  # These alternatives are used to apply bias.
+  # This value should be set to 1 or 3.
+  # Setting this value to anything other than 1 may not work for
+  # models other than "enhanced-general".
+  alternatives: 1
+  # Use this setting to ignore recognized text with low confidence.
+  minConfidence: 0.50
+
+# Utterance command argument completion word.
+argumentCompletion: "stop"
+
+# Utterance command case change words.
+caseChangeUpper: "upper"
+caseChangeLower: "lower"
+
+# Words that are not capitalized for the title command.
+titleSkip:
+  - "a"
+  - "an"
+  - "and"
+  - "as"
+  - "at"
+  - "but"
+  - "by"
+  - "for"
+  - "if"
+  - "in"
+  - "nor"
+  - "of"
+  - "off"
+  - "on"
+  - "or"
+  - "per"
+  - "so"
+  - "the"
+  - "to"
+  - "up"
+  - "via"
+  - "yet"

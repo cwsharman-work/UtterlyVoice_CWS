@@ -1,0 +1,105 @@
+---
+name: "microsoft word"
+description: >-
+  This is a custom file that helps navigate with keyboard shortcuts in Microsoft Word. Because of weirdness in the ribbon, this requires setting some keyboard shortcuts yourself. To do this, options, customize ribbon, keyboard shortcuts (the customize button at the bottom). It was made on 9/16/2024.
+initiallyActive: false
+exclusive: false
+commands:  
+  - name: "bullet that"
+    description: >-
+      This uses the commands with alt and key presses to hit the bullet default button.
+    alternates:
+      - "bull it that"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "z"
+      - name: "keyPress"
+        fixedArguments:          
+          - "p"
+      - name: "keyPress"
+        fixedArguments:          
+          - "u"
+      - name: "keyPress"
+        fixedArguments:
+          - "right"
+      - name: "keyPress"
+        fixedArguments:
+          - "enter"
+      - name: "keyPress"
+        fixedArguments:
+          - "escape"
+  - name: "bullet options"
+    description: >-
+      This uses the commands with alt and key presses to hit the bullet list.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "z"
+      - name: "keyPress"
+        fixedArguments:          
+          - "p"
+      - name: "keyPress"
+        fixedArguments:          
+          - "u"          
+  - name: "italicize that"
+    description: >-
+      Equivalent of control+i.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "i"
+  - name: "bold that"
+    description: >-
+      Equivalent of control+b.
+    alternates:
+      - "pulled that"
+      - "fold that"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "control"
+          - "b"          
+  - name: "highlighter"
+    description: >-
+      This uses the commands with alt and key presses to activate highlighting.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "z"
+      - name: "keyPress"
+        fixedArguments:          
+          - "f"
+      - name: "keyPress"
+        fixedArguments:          
+          - "i"      
+  - name: "toggle paragraph marks"
+    description: >-
+      This uses the commands with alt and key presses to toggle whether paragraph marks are shown.
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "z"
+      - name: "keyPress"
+        fixedArguments:          
+          - "p"
+      - name: "keyPress"
+        fixedArguments:          
+          - "8"            
