@@ -1,14 +1,23 @@
 ---
-name: "arc mode"
+name: "arc mode" # note: remove html hacks before giving this to others.
 description: >-
   This is a custom file that helps navigate with keyboard shortcuts in ArcGIS Pro. It was made on 9/6/2024.
 initiallyActive: false
 exclusive: false
 commands:  
 ## troubleshooting workarounds with keypresses
-  - name: "release holds"
+  - name: "release holds" # description includes html for next section
     description: >-
-      Not sure how to properly do key presses, so here's a way out. Adding keys as they become relevant.
+      Not sure how to properly navigate Pro with the keyboard and sometimes keys end up held, so here's a way out. Adding keys as they become relevant.
+      <p> So far the list includes:</p>
+      <li>alt</li>
+      <li>f7</li>
+            <thead>
+        <tr>
+          <th>Modified regular commands</th>
+          <th></th>
+        </tr>
+      </thead>
     alternates:
       - "select pain"
     functions:
@@ -54,9 +63,15 @@ commands:
   #         - "=" # not included as a default key for function, waiting for response
   #       utteranceArguments: 1
 # rename
-  - name: "rename"
+  - name: "rename" # includes html for next section
     description: >-
       Renames whatever you have selected. Equivalent of "press f2"
+      <thead>
+        <tr>
+          <th>Misc.</th>
+          <th></th>
+        </tr>
+      </thead>        
     functions:
       - name: "keyPress"
         fixedArguments:
@@ -398,9 +413,15 @@ commands:
           - "control"
           - "f6"
 ## Catalog actions
-  - name: "create new layout"
+  - name: "create new layout"  # includes html for next section
     description: >-
       Command to make a new layout. Equivalent of Ctrl+Shift+L
+            <thead>
+        <tr>
+          <th>Navigating the ribbon with "alt" keypress combinations</th>
+          <th></th>
+        </tr>
+      </thead>           
     # alternates: 
     #   - "next few"
     functions:
@@ -410,7 +431,7 @@ commands:
           - "shift"
           - "l"
 ## Navigate ribbon
-  - name: "navigate ribbon"
+  - name: "navigate ribbon" 
     description: >-
       Begins ribbon navigation. Equivalent to pressing alt key. Use basic letter utterance commands to control it from here.
     # alternates: 
@@ -435,7 +456,7 @@ commands:
         utteranceArguments: 100
   - name: "back one"
     description: >-
-      Goes back one in the navigation pane. Equivalent to pressing escape.
+      Goes back one in the navigation pane. Equivalent to pressing escape.       
     functions:
       - name: "keyPress"
         fixedArguments:
