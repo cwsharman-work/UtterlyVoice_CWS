@@ -5,12 +5,70 @@ description: >-
 initiallyActive: false
 exclusive: false
 commands:
+# quicker navigation
+  - name: "tick"
+    description: >-
+      Alternate word for "number". 100 utterance arguments. <p>Other alternates include "take", "pick", "ticket"</p>
+    alternates:
+      - "take"
+      - "pick"
+      - "ticket"
+    functions:
+      - name: "number"
+        utteranceArguments: 100
+  - name: "down"
+    description: >-
+      Alternate word for "go down"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "down"
+  - name: "up"
+    description: >-
+      Alternate word for "go up"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "up"
+  - name: "left"
+    description: >-
+      Alternate word for "go left". Can also use "leg", "like"
+    alternates:
+      - "leg"
+      - "like"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "left"
+  - name: "right" # The weird html creates a header in the table for the next section
+    description: >-
+      Alternate word for "go right". Can also use "rye", "ri", "ride"
+            <thead>
+        <tr>
+          <th>Excel Commands</th>
+          <th></th>
+        </tr>
+      </thead>
+    alternates:
+      - "rye"
+      - "ri"
+      - "ride"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "right"          
 # excel commands
-  - name: "sum"
+  - name: "sum" # The weird html creates a header in the table for the next section
     alternates:
      - "some"
     description: >-
-      Correctly types =SUM()
+      Correctly types =SUM()  
+            <thead>
+        <tr>
+          <th>Entering Titles and Numbers</th>
+          <th></th>
+        </tr>
+      </thead>
     functions:
       - name: "type"
         fixedArguments:
@@ -20,7 +78,7 @@ commands:
     alternates:
       - "set up transect titles"
     description: >-
-      Sets up titles for transects: Common name (tab) Scientific name (tab) Start (tab) End (tab)
+      Sets up titles for transects: <br />Common name (tab) Scientific name (tab) Start (tab) End (tab)
     functions:
       - name: "type"
         fixedArguments:
@@ -29,12 +87,12 @@ commands:
   - name: "line" #for transacts
     description: >-
       Use this command to type a line for transect data.
-      Saying "line 1.1 stop 2.2" gives you:
+      <p>Saying "line 1.1 stop 2.2" gives you:</p>
       1.1 (tab) 2.2 (enter)
-      You can try using it multiple times in a row, but it might not work correctly.
-      Saying "line 1.1 stop 2.2 stop line 3.3 stop 4.4 stop" should give you:
-      1.1 (tab) 2.2 (enter)
-      3.3 (tab) 4.4 (enter)
+      <p>You can try using it multiple times in a row, but it might not work correctly.
+      <br />Saying "line 1.1 stop 2.2 stop line 3.3 stop 4.4 stop" should give you:</p>
+      <p>1.1 (tab) 2.2 (enter)
+      <br />3.3 (tab) 4.4 (enter)</p>
     alternates: 
       - "mine" #frequently mis-recognized
     functions:
