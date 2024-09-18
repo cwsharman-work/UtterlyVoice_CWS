@@ -10,7 +10,13 @@ commands:
 # type command
   - name: "hefeadfs"
     description: >-
-      this is a type command example
+      this is a type command example. it includes some code to make a new header below this in the help html file... it's a hack for sure.
+            <thead>
+        <tr>
+          <th>Excel Commands</th>
+          <th></th>
+        </tr>
+      </thead>
     alternates: 
       - "geasdfawe"
     functions:
