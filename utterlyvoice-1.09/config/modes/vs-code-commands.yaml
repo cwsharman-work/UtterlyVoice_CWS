@@ -66,6 +66,14 @@ commands:
         fixedArguments:
           - "control"
           - "c"
+  - name: "bad line"
+    description: >-
+      Delete line. Equivalent of "Shift+delete"
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "shift"
+          - "delete"
   - name: "open terminal"
     description: >-
       Equivalent of "Ctrl+`"
