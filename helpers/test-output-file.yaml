@@ -7,10 +7,10 @@ exclusive: false
 commands:
   - name: "jargon word"
     description: >-
-      This file contains example jargon.
+      An example description for a jargon word
     alternates: 
       - "jargon words"
     functions:
       - name: "type"
         fixedArguments:
-          - "jargon word"
+          - "this is what the program will write"

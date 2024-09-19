@@ -1,6 +1,6 @@
 """
 This is a generic version of my jargon helper files. It reads an excel file (which keeps formatting so headers are in the same place, unlike .csv). 
-The default headers are command, alternates, and description.
+The default headers are command, alternates, description, and text. Text will likely often be the same as command.
 It begins with several settings, including variables that add things to the .gitignore automatically if you want.
 Make sure the alternates in the spreadsheet are only separated by commas!
 """
@@ -11,12 +11,12 @@ import pandas as pd
 ### Generic setup
 ## Settings (modify these)
 write_to_utterly_dir = False # likely better to keep this False, but up to you. If False, remember to copy yaml file to utterly voice
-print_at_end = True # can print to terminal at end of program
+print_at_end = False # can print to terminal at end of program
 
 file_private = False # adds output_file to .gitignore if True - code at end of this file
 directory_private = False # adds this directory to .gitignore if True - code at end of this file
 
-output_file_name = "test-output-file.yaml"
+output_file_name = "test-output-file.yaml" # recommend name "jargon-project.yaml"
 output_file_title = "output file" # this gets written to yaml. match it to the output_file_name
 output_file_description = "This file contains example jargon."
 
@@ -66,11 +66,11 @@ for index, row in df.iterrows():
     big_string = '''
   - name: "'''+str(row['command'])+'''"
     description: >-
-      '''+output_file_description+alternates_string+'''
+      '''+str(row['description'])+alternates_string+'''
     functions:
       - name: "type"
         fixedArguments:
-          - "'''+str(row['command'])+'''"'''
+          - "'''+str(row['text'])+'''"'''
     output_file.write(big_string)
 output_file.close()
 
@@ -87,17 +87,16 @@ gitignore_file_name = ".gitignore"
 # check whether locations are already in .gitignore
 # check if output_dir and directory are in .gitignore already
 this_dir = "/"+this_file_dir[:-1] # need / at beginning and not end for directories in .gitignore.
+in_data_output_dir = False
+in_data_this_dir = False 
 with open(gitignore_file_name, "r") as fp:
-  in_data_output_dir = False
-  in_data_this_dir = False 
   # read all lines
   lines = fp.readlines()
   for row in lines:
-      if row == output_dir:
-        in_data_output_dir = True
-      if row == this_dir:
-        in_data_this_dir = True
- 
+    if row == output_dir or row[:-1] == output_dir:
+      in_data_output_dir = True
+    if row == this_dir or row[:-1] == this_dir:
+      in_data_this_dir = True
 print(output_dir + " in .gitignore already: "+str(in_data_output_dir)+" (file_private is set to "+str(file_private)+")")
 print(this_dir + " in .gitignore already: "+str(in_data_this_dir)+" (directory_private is set to "+str(directory_private)+")")
 
