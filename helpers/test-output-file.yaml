@@ -1,0 +1,16 @@
+---
+name: output file
+description: >-
+  This file contains example jargon. Includes 1 command(s) (barring errors in the jargon spreadsheet).
+initiallyActive: false
+exclusive: false
+commands:
+  - name: "jargon word"
+    description: >-
+      This file contains example jargon.
+    alternates: 
+      - "jargon words"
+    functions:
+      - name: "type"
+        fixedArguments:
+          - "jargon word"

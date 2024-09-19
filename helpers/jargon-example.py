@@ -1,25 +1,28 @@
 """
-The default headers are command, alternates, and description
-
-TODOS
-- make work with xlsx
-- when adding to .gitignore, fix already finding "helpers"
+This is a generic version of my jargon helper files. It reads an excel file (which keeps formatting so headers are in the same place, unlike .csv). 
+The default headers are command, alternates, and description.
+It begins with several settings, including variables that add things to the .gitignore automatically if you want.
+Make sure the alternates in the spreadsheet are only separated by commas!
 """
 
 import pandas as pd
 # import os
 
 ### Generic setup
-## Settings
+## Settings (modify these)
 write_to_utterly_dir = False # likely better to keep this False, but up to you. If False, remember to copy yaml file to utterly voice
-print_at_end = False # can print to terminal at end of program
-file_private = True # adds output_file to .gitignore if True - code at end of this file
-directory_private = True # adds this directory to .gitignore if True - code at end of this file
+print_at_end = True # can print to terminal at end of program
+
+file_private = False # adds output_file to .gitignore if True - code at end of this file
+directory_private = False # adds this directory to .gitignore if True - code at end of this file
+
 output_file_name = "test-output-file.yaml"
 output_file_title = "output file" # this gets written to yaml. match it to the output_file_name
 output_file_description = "This file contains example jargon."
+
 this_file_dir = "helpers/" # this is where the output file will go if write_to_utterly_dir is false
-jargon_data_file = this_file_dir + "jargon_example_data.csv"
+jargon_data_file = this_file_dir + "jargon_example_data.xlsx"
+### End settings to modify
 
 # set output file location based on write_to_utterly_dir
 if write_to_utterly_dir:
@@ -30,7 +33,7 @@ else:
 
 ### Creating and adding data to output file
 output_file = open(output_dir, "w") # overwrites the file every time you run this program
-df = pd.read_csv(jargon_data_file)
+df = pd.read_excel(jargon_data_file)
 
 # get data for yaml header
 num_commands = len(df)
@@ -39,7 +42,7 @@ num_commands = len(df)
 file_header = """---
 name: """+output_file_title+"""
 description: >-
-  """+output_file_description+""" Includes """+str(num_commands)+""" commands (barring errors in the xlsx).
+  """+output_file_description+""" Includes """+str(num_commands)+""" command(s) (barring errors in the jargon spreadsheet).
 initiallyActive: false
 exclusive: false
 commands:"""
@@ -69,8 +72,6 @@ for index, row in df.iterrows():
         fixedArguments:
           - "'''+str(row['command'])+'''"'''
     output_file.write(big_string)
-
-print("\n\nSkipped "+str(skipped_commands_count)+" command(s).")
 output_file.close()
 
 if print_at_end:
@@ -78,28 +79,34 @@ if print_at_end:
     print(f.read())
     f.close()
 
+print("\n\nSkipped "+str(skipped_commands_count)+" command(s).")
+
 ## add to .gitignore if file_private and/or directory_private are True
 gitignore_file_name = ".gitignore"
-if file_private:
-  # check if output_dir is in .gitignore already
-  with open(gitignore_file_name, "r") as filepath:
-    file_data = filepath.read()
-    in_data_output_dir = output_dir in file_data
+
+# check whether locations are already in .gitignore
+# check if output_dir and directory are in .gitignore already
+this_dir = "/"+this_file_dir[:-1] # need / at beginning and not end for directories in .gitignore.
+with open(gitignore_file_name, "r") as fp:
+  in_data_output_dir = False
+  in_data_this_dir = False 
+  # read all lines
+  lines = fp.readlines()
+  for row in lines:
+      if row == output_dir:
+        in_data_output_dir = True
+      if row == this_dir:
+        in_data_this_dir = True
+ 
+print(output_dir + " in .gitignore already: "+str(in_data_output_dir)+" (file_private is set to "+str(file_private)+")")
+print(this_dir + " in .gitignore already: "+str(in_data_this_dir)+" (directory_private is set to "+str(directory_private)+")")
+
+if file_private and not in_data_output_dir:
   # add output_file to .gitignore if not there already
-  print(output_dir + " in .gitignore already: "+str(in_data_output_dir))
-  if not in_data_output_dir:
-    with open(gitignore_file_name, "a") as filepath:
-      filepath.write("\n" + output_dir)
-      print("Wrote "+output_dir+" to "+gitignore_file_name)
-if directory_private:
-  # check if this directory is in .gitignore already
-  this_dir = "/"+this_file_dir[:-1] # need / at beginning and not end for directories in .gitignore
-  with open(gitignore_file_name, "r") as filepath:
-    file_data = filepath.read()
-    in_data_this_dir = this_dir in file_data
-  # add output_file to .gitignore if not there already
-  print(this_dir + " in .gitignore already: "+str(in_data_this_dir))
-  if not in_data_this_dir:
-    with open(gitignore_file_name, "a") as filepath:
-      filepath.write("\n" + this_dir)
-      print("Wrote "+this_dir+" to "+gitignore_file_name)
+  with open(gitignore_file_name, "a") as filepath:
+    filepath.write("\n" + output_dir)
+    print("Wrote "+output_dir+" to "+gitignore_file_name)
+if directory_private and not in_data_this_dir:
+  with open(gitignore_file_name, "a") as filepath:
+    filepath.write("\n" + this_dir)
+    print("Wrote "+this_dir+" to "+gitignore_file_name)
