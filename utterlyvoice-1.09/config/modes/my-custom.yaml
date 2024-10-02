@@ -52,6 +52,13 @@ commands:
           - "right"
         utteranceArguments: 1                          
 # my own commands
+  - name: "pop" #use this for mouse click
+    description: >-
+      Uses "pop" instead of "mouse left click"
+    functions:
+      - name: "mouseClick"
+        fixedArguments:
+          - "left" 
   - name: "save file"
     description: >-
       Equivalent of "Ctrl+s"

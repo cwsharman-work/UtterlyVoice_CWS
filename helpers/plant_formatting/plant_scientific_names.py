@@ -4,6 +4,9 @@ This script outputs the file scientific-plants.yaml, which makes a list of plant
 Due to some lazy programming...
 Make sure the csv of plant names has the headings 'alternate names' 'common name' 'scientific name' and 'invasive'
 Make sure the alternate names are only separated by a comma (no space)
+
+TODO:
+fix excel error (sigh)
 """
 
 import pandas as pd
@@ -11,8 +14,8 @@ import pandas as pd
 write_to_utterly_dir = True # likely better to keep this False, but up to you. If False, remember to copy yaml file to utterly voice
 print_at_end = False # can print to terminal at end of program
 
-list_of_plants_file = "helpers/plant_formatting/plant_names.csv"
-df = pd.read_csv(list_of_plants_file)
+list_of_plants_file = "helpers/plant_formatting/plant_names.xlsx"
+df = pd.read_excel(list_of_plants_file)
 
 output_file_name = "plants-scientific.yaml"
 

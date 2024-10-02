@@ -1,5 +1,7 @@
 ---
 name: "homescreen"
+alternates:
+  - "home screen"
 description: >-
   This file defines common screen positions on my external monitor at home.
 initiallyActive: true

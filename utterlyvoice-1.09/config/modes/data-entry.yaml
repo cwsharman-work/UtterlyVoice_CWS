@@ -83,6 +83,95 @@ commands:
       - name: "type"
         fixedArguments:
           - "Common name\tScientific name\tStart\tEnd"
+  - name: "no border"
+    description: >-
+      Clears the border around the selected cells. Equivalent to alt, h, b, n
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "b"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"
+  - name: "outside border"
+    description: >-
+      Adds outside border around the selected cells. Equivalent to alt, h, b, s
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "b"
+      - name: "keyPress"
+        fixedArguments:
+          - "s"
+  - name: "highlighter"
+    description: >-
+      Opens highlight options. Equivalent to alt, h, h
+    # alternates: 
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+  - name: "no fill"
+    alternates:
+      - "no phil"
+      - "no fail"
+    description: >-
+      Highlights without fill. Equivalent to alt, h, h, n
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "n"         
+  - name: "highlight grey"
+    alternates:
+      - "highlight gray"
+    description: >-
+      Highlights the third grey option down. Equivalent to alt, h, h, down three, enter
+    functions:
+      - name: "keyPress"
+        fixedArguments:
+          - "alt"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyPress"
+        fixedArguments:
+          - "h"
+      - name: "keyRepeat"
+        fixedArguments:
+          - "down"
+          - "3"
+      - name: "keyPress"
+        fixedArguments:
+          - "enter"
 # numbers
   - name: "line" #for transacts
     description: >-
